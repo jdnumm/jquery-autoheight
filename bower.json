@@ -1,0 +1,28 @@
+{
+  "name": "jquery-autoheight",
+  "version": "1.0.0",
+  "homepage": "https://github.com/monocult/jquery-autoheight",
+  "authors": [
+    "Daniel Nümm <daniel.nuemm@blacktre.es>"
+  ],
+  "description": "Find the largest element content and set all elements in the same row to the same height.",
+  "main": "jquery.autoheight.build.js",
+  "keywords": [
+    "jquery",
+    "height",
+    "autoheight",
+    "css",
+    "fix"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.11.0"
+  }
+}
