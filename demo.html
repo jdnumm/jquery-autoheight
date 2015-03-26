@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .box { float: left; width: 200px; height: auto; margin: 1em; background: #eee; }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="jquery.autoheight.js"></script>
+        <script>
+        $('.box').each( function() {
+        var max = Math.floor(30*Math.random())+10
+          for(var i=0; i<max; i++) {
+            $(this).text($(this).text()+' content')
+          }
+        });
+
+        $('.box').AutoHeight()
+        </script>
+    </body>
+</html>
