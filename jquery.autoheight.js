@@ -92,7 +92,7 @@
             });
         }
 
-        $(window).load(setup(this));
+        $(window).on('load', setup(this));
         resizeEvent(this);
 
         // chain jQuery functions
